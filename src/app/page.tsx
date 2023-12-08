@@ -1,9 +1,10 @@
 import { Box, Text } from "@chakra-ui/react";
 
-export default function Home() {
+const Home = () => {
   return (
-    <Box>
-      <Text> Chakra UI: A Comprehensive Guide</Text>
+    <Box bg="brand.white200" p="3rem">
+      <Text>Chakra UI: A Comprehensive Guide</Text>
     </Box>
   );
-}
+};
+export default Home;
