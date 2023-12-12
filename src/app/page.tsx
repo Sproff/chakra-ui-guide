@@ -1,6 +1,5 @@
 import { DarkModeToggleComp } from "@/components/DarkModeToggle";
 import { DisclosureComp } from "@/components/Disclosure";
-import { RefineWithChakraUIComp } from "@/components/RefineWithChakraUI";
 import { SliderComp } from "@/components/Slider";
 import { SliderWithClipboardComp } from "@/components/SliderWithClipboard";
 import { StepperComp } from "@/components/Stepper";
@@ -16,7 +15,6 @@ const Home = () => {
       <DisclosureComp />
       <ThemeComp />
       <DarkModeToggleComp />
-      <RefineWithChakraUIComp />
     </Box>
   );
 };
